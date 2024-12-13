@@ -1,28 +1,35 @@
-/* Login.css */
-body {
+/* Ensure the white background applies to all relevant elements */
+html, body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  padding: 0;
   background-color: #ffffff;
+  height: 100%;
+}
+
+#root {
+  background-color: #ffffff;
+  height: 100%;
 }
 
 .login-page {
+  background-color: #ffffff;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   position: relative;
 }
 
 .top-left-logo {
   position: absolute;
-  top: 20px; /* Adjust the top spacing */
-  left: 20px; /* Adjust the left spacing */
+  top: 20px;
+  left: 20px;
 }
 
 .logo {
-  width: 180px; /* Increase size */
-  height: auto; /* Maintain aspect ratio */
+  width: 180px;
+  height: auto;
 }
 
 .login-box {
@@ -31,9 +38,9 @@ body {
   padding: 30px;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
+
 
 .login-box h1 {
   font-size: 24px;

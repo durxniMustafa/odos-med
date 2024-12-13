@@ -7,11 +7,11 @@ const Patients = () => {
     const [patients, setPatients] = useState([
         {
             id: 1,
-            name: "Yamini Gowda",
+            name: "Dmytro ",
             dob: "Dec 18, 2020",
-            phone: "+91 9798399999",
-            email: "yamini_gowda@home.com",
-            address: "Kisan Wadie Est, Nr Dahanukar Wadi Bunder Pakhadi Rd, Kandivali, Alwar",
+            phone: "+49 174 8414779",
+            email: "duraniimustafa@outlook.de",
+            address: "Reinmarplatz.20, 80637 München",
         },
     ]);
 
