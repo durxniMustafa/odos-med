@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #6a1b9a;
+  }
+  
+  .login-container,
+  .patients-container,
+  .sessions-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

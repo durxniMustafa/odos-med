@@ -1,0 +1,121 @@
+/* Patients.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f8fc;
+  }
+  
+  .patients-page {
+    padding: 20px;
+  }
+  
+  /* Header (Improved Navbar) */
+  .patients-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #6a1b9a;
+    color: white;
+    border-radius: 8px;
+  }
+  
+  .patients-header .logo img {
+    width: 150px;
+  }
+  
+  .patients-header nav {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .patients-header nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .patients-header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add Patient Button */
+  .actions {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .add-patient-button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .add-patient-button:hover {
+    background-color: #5a1584;
+  }
+  
+  /* Patients Grid */
+  .patients-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .patient-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .patient-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    object-fit: cover;
+  }
+  
+  .patient-info {
+    width: 100%;
+  }
+  
+  .patient-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+  
+  .patient-info strong {
+    color: #6a1b9a;
+  }
+  
+  /* Remove Button */
+  .remove-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .remove-button:hover {
+    background-color: #d43636;
+  }
+  

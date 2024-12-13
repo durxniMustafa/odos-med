@@ -1,0 +1,59 @@
+.add-patient-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .add-patient-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-patient-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-patient-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .add-patient-form input,
+  .add-patient-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .submit-button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #ddd;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #5a1584;
+  }
+  
+  .cancel-button:hover {
+    background-color: #bbb;
+  }
+  
